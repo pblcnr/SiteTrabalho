@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*HEADER*/
+ header {
+    background-color: rgb(168, 121, 68);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 200px;
+}
+
+/*NAV*/
+ nav {
+    padding: 100px ;
+    margin-top: 100px ;
+}
+
+nav ul {
+    list-style-type: none;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*MAIN*/
+main {
+    background-color: rgb(168, 121, 68);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blanchedalmond;
+}
+
+/*Página Inicio*/
+.body2{
+    background-color: rgb(168, 121, 68);
+    text-align: center;
+    padding: 50px;
+}
+/*Álbuns Recomendados*/
+.album-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.album {
+    width: 200px;
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/*Capas dos Álbuns*/
+.guts{
+    height:200px;
+}
+
+.moments{
+    height: 200px;
+}
+
+.grace{
+    height:200px;
+}
+
+.sunbather{
+    height: 200px;
+}
+
+.clb{
+    height: 200px;
+}
+
+.tfotl{
+    height: 200px;
+}
