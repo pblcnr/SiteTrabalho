@@ -7,10 +7,10 @@
 /*HEADER*/
  header {
     background-color: rgb(168, 121, 68);
-    height: 200px;
+    height: 300px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .logo {
@@ -25,20 +25,27 @@
 
 nav ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
     
 }
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: blanchedalmond;
 }
 
 /*MAIN*/
 main {
     background-color: rgb(168, 121, 68);
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     color: blanchedalmond;
 }
 
@@ -63,6 +70,20 @@ main {
     text-align: center;
 }
 
+/*Link para os Álbuns*/
+.link{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    color: black;
+    transition: transform 0.2s;
+}
+
+.link:hover{
+    transform: scale(1.1);
+}
+
 /*Capas dos Álbuns*/
 .guts{
     height:200px;
@@ -85,5 +106,21 @@ main {
 }
 
 .tfotl{
+    height: 200px;
+}
+
+.american{
+    height: 200px;
+}
+
+.aal{
+    height: 200px;
+}
+
+.doom{
+    height: 200px;
+}
+
+.discovery{
     height: 200px;
 }
