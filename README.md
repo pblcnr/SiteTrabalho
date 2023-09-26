@@ -9,7 +9,7 @@ Este é um projeto simples de um site desenvolvido em HTML e CSS para recomenda�
 
 ## Demonstração
 
-Você pode verificar a demonstração deste projeto [aqui](link-da-demonstração).
+Você pode verificar a demonstração deste projeto [aqui](https://cenourissimo-site.vercel.app/).
 
 ## Tecnologias Utilizadas
 
